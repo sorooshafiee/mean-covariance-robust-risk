@@ -11,7 +11,7 @@ First, clone the repo
 
 > $ git clone https://github.com/sorooshafiee/mean-covariance-robust-risk.git
 
-Then, install all required libraries for Python 3.13.5 using
+Then, install all required libraries using
 
 > $ conda create -n rfolio python=3.13.5
 
