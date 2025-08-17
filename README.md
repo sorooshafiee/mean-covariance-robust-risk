@@ -11,4 +11,8 @@ First, clone the repo
 
 > $ git clone https://github.com/sorooshafiee/mean-covariance-robust-risk.git
 
+Then, install all required libraries for Python 3.13.5 using
+
+> $ conda install --yes --file requirements.txt
+
 To reproduce the numerical results, you need to first run `fig1_results.py`, `fig2_results.py`, `table2_results.py`, and `table3_results.py`. Then, run `fig1_plotter.py` and `fig2_plotter.py`.
