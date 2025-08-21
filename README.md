@@ -1,5 +1,5 @@
 # Mean-covariance robust risk measurement
-This repo contains all source code that reproduce the experiments in our [Mean-covariance robust risk measurement](https://arxiv.org/pdf/2112.09959) paper.
+This repo contains all source code that reproduce the experiments in our paper.
 
 **We welcome any feedback and suggestions! Note that we put in maximum effort to write high quality codes. However, they may still contain bugs or not be efficient enough.**
 
@@ -7,11 +7,7 @@ This repo contains all source code that reproduce the experiments in our [Mean-c
 All optimization problems are implemented in Python. The implementations rely on the following third-party software: [Gurobi](https://www.gurobi.com/), [Mosek](https://www.mosek.com/), [Julia](https://julialang.org/) and [JuMP](https://jump.dev/JuMP.jl/stable/).
 
 ## Reproducing the results
-First, clone the repo
-
-> $ git clone https://github.com/sorooshafiee/mean-covariance-robust-risk.git
-
-Then, install all required libraries using
+First, install all required libraries using
 
 > $ conda create -n rfolio python=3.13.5
 
